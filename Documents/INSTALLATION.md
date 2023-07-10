@@ -28,9 +28,9 @@
 
 [공식 문서 가이드](https://docs.requarks.io/install)
 
----
+<br/>
 
-### Install Environment
+### Step 0. Install Environment
 
 [PostgreSQL 15.3](https://sbp.enterprisedb.com/getfile.jsp?fileid=1258514)
 
@@ -38,23 +38,23 @@
 
 [Wiki.js v2.5.299 - 변경될 수 있음](https://js.wiki/get-started)
 
----
+<br/>
 
-##### Step 1. Install DB Server
+### Step 1. Install DB Server
 
 PostgreSQL 15.3 버전을 다운로드 한 뒤 설치
 
 도중에 나오는 postgres 계정에 대한 비밀번호는 꼭 기억할것.
 
----
+<br/>
 
-##### Step 2. Setting DB Environment
+### Step 2. Setting DB Environment
 
 프로그렘 메뉴에서 SQL Shell (psql) 을 찾아서 실행한다음 암호 입력창이 나올때까지 Enter키 입력.
 
 암호 입력창이 나올경우 설치할때 입력했던 암호 입력.
 
-![image](https://github.com/Zeliper/TC_WIKI/assets/24862471/cb4c8e04-0ef9-48c4-88ff-80fb700c29f7)
+![image](https://github.com/Zeliper/TC_WIKI/assets/24862471/2df98793-15e4-4076-91f4-e27a412cec6b)
 
 위와 같이 정상적으로 postgres=# 이런식으로 접속이 된경우 아래 명령어를 통해 위키 DB 계정 생성
 
@@ -77,3 +77,11 @@ ALTER USER wikijs WITH SUPERUSER;
 ```
 
 위 명령들에 문제가 없을경우 정상적으로 DB는 준비가 완료됨.
+
+<br/>
+
+### Step 2. Install Wiki.js
+
+그냥 공식 문서 이거 하나 따라하시면 됩니다. 
+
+[공식 문서 링크](https://docs.requarks.io/install/windows)
