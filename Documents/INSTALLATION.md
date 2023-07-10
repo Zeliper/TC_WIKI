@@ -36,13 +36,13 @@
 
 [Wiki.js v2.5.299 - 변경될 수 있음](https://js.wiki/get-started)
 
-##### Step 1. Install DB Server
+#### Step 1. Install DB Server
 
 PostgreSQL 15.3 버전을 다운로드 한 뒤 설치
 
 도중에 나오는 postgres 계정에 대한 비밀번호는 꼭 기억할것.
 
-##### Step 2. Setting DB Environment
+#### Step 2. Setting DB Environment
 
 프로그렘 메뉴에서 SQL Shell (psql) 을 찾아서 실행한다음 암호 입력창이 나올때까지 Enter키 입력.
 
