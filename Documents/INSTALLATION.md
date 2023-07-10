@@ -1,4 +1,4 @@
-![image](https://github.com/Zeliper/TC_WIKI/assets/24862471/024bfa41-59fb-4b23-9566-2ed422c1b4f7)# 📖 Installation
+📖 Installation
 
 [Wiki.js](https://js.wiki/) 를 사용한 Teamcenter, Active Workspace KnowledgeBase 구축을 위한 개발 환경 세팅 가이드
 
