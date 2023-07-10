@@ -1,4 +1,4 @@
-📖 Installation
+# 📖 Installation
 
 [Wiki.js](https://js.wiki/) 를 사용한 Teamcenter, Active Workspace KnowledgeBase 구축을 위한 개발 환경 세팅 가이드
 
