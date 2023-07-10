@@ -80,7 +80,7 @@ ALTER USER wikijs WITH SUPERUSER;
 
 <br/>
 
-### Step 2. Install Wiki.js
+### Step 3. Install Wiki.js
 
 그냥 공식 문서 이거 하나 따라하시면 됩니다. 
 
