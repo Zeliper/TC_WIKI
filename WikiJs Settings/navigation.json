@@ -1,0 +1,84 @@
+{
+  "site": [
+    {
+      "locale": "en",
+      "items": [
+        {
+          "id": "e1d044e7-3b03-4a91-8ddb-25532fcc4326",
+          "kind": "link",
+          "label": "홈",
+          "icon": "mdi-home",
+          "targetType": "home",
+          "target": "/",
+          "visibilityMode": "all",
+          "visibilityGroups": null
+        }
+      ]
+    },
+    {
+      "locale": "ko",
+      "items": [
+        {
+          "id": "e1d044e7-3b03-4a91-8ddb-25532fcc4326",
+          "kind": "link",
+          "label": "홈",
+          "icon": "mdi-home",
+          "targetType": "home",
+          "target": "/",
+          "visibilityMode": "all",
+          "visibilityGroups": null
+        },
+        {
+          "id": "4b478b8d-aca3-42ff-aa85-0889ddca8b95",
+          "kind": "header",
+          "label": "Teamcenter",
+          "icon": null,
+          "targetType": null,
+          "target": null,
+          "visibilityMode": "all",
+          "visibilityGroups": []
+        },
+        {
+          "id": "506d7c8d-9fd0-433b-91e0-13657afcce50",
+          "kind": "link",
+          "label": "Teamcenter",
+          "icon": "mdi-chevron-right",
+          "targetType": "page",
+          "target": "/ko/Teamcenter",
+          "visibilityMode": "all",
+          "visibilityGroups": []
+        },
+        {
+          "id": "768c2fbb-7a43-40cf-8ace-1616ccf67d49",
+          "kind": "divider",
+          "label": null,
+          "icon": null,
+          "targetType": null,
+          "target": null,
+          "visibilityMode": "all",
+          "visibilityGroups": []
+        },
+        {
+          "id": "cbe0a148-6aa1-4382-96b2-b968786921a5",
+          "kind": "header",
+          "label": "Active Workspace",
+          "icon": null,
+          "targetType": null,
+          "target": null,
+          "visibilityMode": "all",
+          "visibilityGroups": []
+        },
+        {
+          "id": "2a73ff30-cc8f-4274-9058-900a20dfbd02",
+          "kind": "link",
+          "label": "Active Workspace",
+          "icon": "mdi-chevron-right",
+          "targetType": "page",
+          "target": "/ko/ActiveWorkspace",
+          "visibilityMode": "all",
+          "visibilityGroups": []
+        }
+      ]
+    }
+  ]
+}

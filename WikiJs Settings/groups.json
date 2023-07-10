@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Administrators",
+    "permissions": [
+      "manage:system"
+    ],
+    "pageRules": [],
+    "isSystem": true,
+    "createdAt": "2023-07-10T03:25:32.285Z",
+    "updatedAt": "2023-07-10T03:25:32.285Z",
+    "redirectOnLogin": "/"
+  },
+  {
+    "id": 2,
+    "name": "Guests",
+    "permissions": [],
+    "pageRules": [
+      {
+        "id": "guest",
+        "deny": false,
+        "match": "START",
+        "roles": [
+          "read:pages",
+          "read:assets",
+          "read:comments"
+        ],
+        "path": "",
+        "locales": []
+      }
+    ],
+    "isSystem": true,
+    "createdAt": "2023-07-10T03:25:32.289Z",
+    "updatedAt": "2023-07-10T04:51:53.584Z",
+    "redirectOnLogin": "/"
+  },
+  {
+    "id": 3,
+    "name": "General",
+    "permissions": [
+      "read:pages",
+      "read:assets",
+      "read:comments",
+      "write:comments"
+    ],
+    "pageRules": [
+      {
+        "id": "default",
+        "deny": false,
+        "match": "START",
+        "roles": [
+          "read:pages",
+          "read:assets",
+          "read:comments",
+          "write:comments"
+        ],
+        "path": "",
+        "locales": []
+      }
+    ],
+    "isSystem": false,
+    "createdAt": "2023-07-10T04:52:06.820Z",
+    "updatedAt": "2023-07-10T04:52:39.473Z",
+    "redirectOnLogin": "/"
+  }
+]
